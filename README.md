@@ -2,15 +2,12 @@
 
 ## This repository contains the solution to the solid principles lab
 
-### Initial System Code
-
-
-
 Tarea 1: analizar el código 
 - Se identifica mas de una responsabilidad en las clase por lo que se debe hacer separacion de responsabilidades acorde a su funcion (SRP)
 - Se identifican 2 tipos de procesamientos de ordenes, se puede modificar el código para que permita  implementar mas escenarios de ordenes (OCP, LSP)
 - la notificacion de la orden hacia el cliente se puede abrir para mas escenarios mediante OCP
 
+### Initial System Code
 ```
 class SystemManager {
     processOrder(order) {
